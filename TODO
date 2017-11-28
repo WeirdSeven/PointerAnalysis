@@ -1,5 +1,7 @@
 1. Load
 2. If
-3. Loop
-4. Recursion
-5. Alias entry assertions
+3. Function calls (Call graph)
+4. Loop
+5. Recursion
+6. Alias entry assertions
+7. Fast alias environment computation
