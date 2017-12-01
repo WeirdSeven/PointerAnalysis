@@ -1,7 +1,21 @@
-1. Load
-2. If
-3. Function calls (Call graph)
-4. Loop
-5. Recursion
-6. Alias entry assertions
-7. Fast alias environment computation
+Work in progress:
+1. Compute call graph partitions
+2. Fixed points for loops and recursion
+
+Improvements:
+1. a = b
+2. NULL pointers
+3. global variables
+4. extern functions
+5. Distinguish v_i for different functions
+
+Harder:
+1. References [4] and [8] (fully path-sensitive and field sensitive)
+2. Fast alias environment computation
+3. Simplify constraints
+4. Parallelism
+5. Graphical output
+
+Not important:
+1. Alias entry assertions
+2. Other data types (intergrals, floats)
